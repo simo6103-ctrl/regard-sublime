@@ -1,0 +1,730 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Regard Sublime · Maquillage permanent et beauté à Casablanca</title>
+<meta name="description" content="Microblading, glaçage des lèvres, eye-liner permanent, maquillage de mariée, soins Guinot, détatouage laser et esthétique médicale à Casablanca (Mers Sultan). Par Wafae El Idrissi. Réservation sur WhatsApp.">
+<meta property="og:title" content="Regard Sublime · Maquillage permanent à Casablanca">
+<meta property="og:description" content="Microblading, glaçage des lèvres, mariée et soins de beauté par Wafae El Idrissi, à Casablanca.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_MA">
+<!-- Aperçu : masqué des moteurs de recherche. Supprimer la ligne suivante le jour du lancement public. -->
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#f6f1ec">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="apple-touch-icon" href="images/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BeautySalon",
+  "name": "Regard Sublime",
+  "description": "Centre de beauté et maquillage permanent à Casablanca : microblading, glaçage des lèvres, eye-liner permanent, maquillage de mariée, soins du visage, détatouage laser, épilation laser, soins minceur, formations.",
+  "founder": {"@type": "Person", "name": "Wafae El Idrissi"},
+  "telephone": "+212611563582",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "39 rue Omar Slaoui, Plateaux Taoufiq, 2e étage",
+    "postalCode": "20140",
+    "addressLocality": "Casablanca",
+    "addressRegion": "Mers Sultan",
+    "addressCountry": "MA"
+  },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+    "opens": "10:00", "closes": "20:00"
+  }],
+  "sameAs": [
+    "https://www.instagram.com/regard.sublime/",
+    "https://www.facebook.com/regardsublime.ma"
+  ]
+}
+</script>
+<style>
+/* Version 2 : mise en page éditoriale. Fond ivoire, grands titres en serif, sections numérotées, photos en mosaïque. */
+:root {
+  --bg: #f6f1ec;
+  --card: #ffffff;
+  --ink: #1b1215;
+  --muted: #6c5b60;
+  --plum: #3d1428;
+  --rose: #a8456b;
+  --blush: #eedbd7;
+  --sand: #e9dfd6;
+  --line: #e1d5cf;
+  --gold: #b0844a;
+  --todo: #ffe98a;
+  --wa: #1f9d55;
+  --display: "Instrument Serif", "Didot", Georgia, serif;
+  --body: "DM Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --r: 28px;
+  --wrap: 1240px;
+  --pad: clamp(20px, 4vw, 48px);
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html { scroll-behavior: smooth; scroll-padding-top: 90px; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 17px; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+img { max-width: 100%; height: auto; display: block; }
+a { color: inherit; }
+p { margin: 0; }
+h1, h2, h3 { margin: 0; font-family: var(--display); font-weight: 400; line-height: 1; letter-spacing: -.01em; text-wrap: balance; }
+h1 em, h2 em { font-style: italic; color: var(--rose); }
+h2 { font-size: clamp(40px, 6.2vw, 84px); }
+h3 { font-size: 30px; line-height: 1.1; }
+.wrap { max-width: var(--wrap); margin: 0 auto; padding-inline: max(var(--pad), env(safe-area-inset-left)) max(var(--pad), env(safe-area-inset-right)); }
+section { padding-block: clamp(72px, 10vw, 140px); }
+.label { font-size: 12px; font-weight: 600; letter-spacing: .18em; text-transform: uppercase; color: var(--muted); }
+.lead { font-size: clamp(17px, 1.5vw, 20px); color: var(--muted); max-width: 56ch; }
+.todo { background: var(--todo); color: #3d3200; border-radius: 4px; padding: 0 5px; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+.draft { background: var(--todo); color: #3d3200; font-size: 13.5px; text-align: center; padding: 8px 16px; }
+
+/* En-tête de section : numéro + titre + texte */
+.head { display: grid; grid-template-columns: auto 1fr; gap: 8px clamp(20px, 4vw, 64px); align-items: start; margin-bottom: clamp(36px, 5vw, 72px); }
+.head .num { font-family: var(--display); font-size: clamp(64px, 11vw, 168px); line-height: .8; color: var(--blush); grid-row: span 3; }
+.head .label { align-self: end; }
+.head .lead { margin-top: 10px; }
+@media (max-width: 700px) { .head { grid-template-columns: 1fr; } .head .num { grid-row: auto; } }
+
+/* Boutons */
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; font: 600 15.5px/1 var(--body); text-decoration: none; padding: 17px 26px; border-radius: 999px; border: 1.5px solid transparent; cursor: pointer; transition: transform .2s, background .2s, color .2s; white-space: nowrap; }
+.btn:hover { transform: translateY(-2px); }
+.btn svg { width: 19px; height: 19px; flex: none; }
+.btn-dark { background: var(--ink); color: #fff; }
+.btn-dark:hover { background: var(--plum); }
+.btn-wa { background: var(--wa); color: #fff; }
+.btn-wa:hover { background: #178046; }
+.btn-line { border-color: currentColor; background: transparent; }
+.btn-line:hover { background: var(--ink); color: #fff; border-color: var(--ink); }
+.on-dark .btn-line:hover { background: #fff; color: var(--plum); border-color: #fff; }
+:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; }
+
+/* En-tête du site */
+.site-header { position: sticky; top: 0; z-index: 30; padding-block: 12px; }
+.bar { display: flex; align-items: center; justify-content: space-between; gap: 16px; background: rgba(255,255,255,.82); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border: 1px solid var(--line); border-radius: 999px; padding: 8px 8px 8px 20px; }
+.logo { display: inline-flex; align-items: center; gap: 10px; font-family: var(--display); font-size: 25px; text-decoration: none; white-space: nowrap; }
+.logo img { height: 34px; width: auto; }
+.logo i { color: var(--rose); }
+.nav { display: flex; gap: 4px; font-size: 14.5px; font-weight: 500; }
+.nav a { text-decoration: none; padding: 9px 14px; border-radius: 999px; color: var(--muted); }
+.nav a:hover { background: var(--sand); color: var(--ink); }
+.bar .btn { padding: 13px 20px; font-size: 14.5px; }
+.menu-btn { display: none; width: 46px; height: 46px; border-radius: 50%; border: 1px solid var(--line); background: #fff; cursor: pointer; align-items: center; justify-content: center; }
+.menu-btn svg { width: 20px; height: 20px; }
+@media (max-width: 980px) {
+  .nav { display: none; position: absolute; left: var(--pad); right: var(--pad); top: calc(100% - 2px); flex-direction: column; background: #fff; border: 1px solid var(--line); border-radius: 22px; padding: 10px; box-shadow: 0 20px 50px rgba(27,18,21,.14); font-size: 17px; }
+  .nav.open { display: flex; }
+  .nav a { padding: 13px 16px; }
+  .menu-btn { display: inline-flex; }
+  .bar .btn span { display: none; }
+  .bar .btn { padding: 13px; }
+}
+
+/* Hero */
+.hero { padding-block: clamp(28px, 4vw, 56px) clamp(56px, 8vw, 110px); }
+.hero-grid { display: grid; grid-template-columns: 1.1fr .9fr; gap: clamp(28px, 5vw, 80px); align-items: center; }
+.hero h1 { font-size: clamp(60px, 10.5vw, 156px); line-height: .88; margin-top: 22px; letter-spacing: -.025em; }
+.hero .lead { margin-top: 28px; }
+.cta-row { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 34px; }
+.hero-media { position: relative; }
+.hero-media .main { aspect-ratio: 4/5; width: 100%; object-fit: cover; border-radius: 999px 999px var(--r) var(--r); }
+.hero-media .mini { position: absolute; left: -8%; bottom: 8%; width: 42%; aspect-ratio: 1/1; object-fit: cover; object-position: 50% 100%; border-radius: 24px; border: 6px solid var(--bg); box-shadow: 0 24px 50px rgba(27,18,21,.18); }
+.float { position: absolute; right: -4%; top: 12%; background: #fff; border-radius: 20px; padding: 14px 18px; box-shadow: 0 20px 44px rgba(27,18,21,.14); font-size: 13.5px; line-height: 1.35; display: grid; gap: 2px; max-width: 190px; }
+.float b { font-family: var(--display); font-weight: 400; font-size: 34px; line-height: 1; color: var(--rose); }
+@media (max-width: 900px) {
+  .hero-grid { grid-template-columns: 1fr; }
+  .hero-media { max-width: 460px; margin-inline: auto; width: 86%; }
+  .float { right: -6%; }
+}
+
+/* Chiffres de preuve */
+.stats { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--line); margin-top: clamp(44px, 6vw, 80px); }
+.stats div { padding: 22px 20px 0 0; display: grid; gap: 4px; align-content: start; justify-items: start; }
+.stats div + div { border-left: 1px solid var(--line); padding-left: 20px; }
+.stats b { font-family: var(--display); font-weight: 400; font-size: clamp(30px, 3.6vw, 48px); line-height: 1; }
+.stats span { font-size: 14px; color: var(--muted); }
+@media (max-width: 760px) { .stats { grid-template-columns: 1fr 1fr; row-gap: 22px; } .stats div:nth-child(3) { border-left: 0; padding-left: 0; } }
+
+/* Bandeau défilant */
+.marquee { background: var(--plum); color: #f6e7ea; overflow: hidden; padding-block: 18px; }
+.marquee-track { display: flex; gap: 44px; width: max-content; animation: slide 38s linear infinite; font-family: var(--display); font-size: clamp(24px, 3vw, 38px); white-space: nowrap; }
+.marquee-track span::after { content: "✦"; margin-left: 44px; color: #d08aa5; font-size: .6em; vertical-align: middle; }
+@keyframes slide { to { transform: translateX(-50%); } }
+
+/* Trio */
+.trio { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.trio article { background: var(--card); border-radius: var(--r); padding: clamp(24px, 3vw, 36px); display: grid; gap: 14px; align-content: start; min-height: 420px; transition: transform .3s, box-shadow .3s; }
+.trio article:hover { transform: translateY(-6px); box-shadow: 0 26px 60px rgba(27,18,21,.10); }
+.trio .n { font-family: var(--display); font-style: italic; font-size: 64px; line-height: 1; color: var(--rose); }
+.trio p { color: var(--muted); }
+.trio article.pic { padding: 0; overflow: hidden; position: relative; color: #fff; align-content: end; }
+.trio article.pic img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.trio article.pic::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(27,18,21,0) 30%, rgba(27,18,21,.82)); }
+.trio article.pic > div { position: relative; z-index: 1; padding: clamp(24px, 3vw, 36px); display: grid; gap: 10px; }
+.trio article.pic p { color: #f1e3e6; }
+.trio article.pic .n { color: #fff; }
+.trio article.plain { background: var(--plum); color: #fff; align-content: end; }
+.trio article.plain p { color: #e3c9d2; }
+.trio article.plain .n { color: #e39ab7; }
+.band { margin-top: 16px; display: flex; flex-wrap: wrap; gap: 18px; align-items: center; justify-content: space-between; background: var(--blush); border-radius: var(--r); padding: 26px clamp(24px, 3vw, 36px); }
+.band strong { font-family: var(--display); font-weight: 400; font-size: clamp(26px, 3vw, 36px); line-height: 1.1; }
+@media (max-width: 900px) { .trio { grid-template-columns: 1fr; } .trio article { min-height: 0; } .trio article.pic { min-height: 380px; } }
+
+/* Prestations */
+.services { background: var(--card); border-radius: clamp(28px, 4vw, 56px); margin-inline: clamp(8px, 1.5vw, 20px); }
+.tabs { display: flex; gap: 8px; margin-bottom: 30px; overflow-x: auto; padding-bottom: 6px; scrollbar-width: none; }
+.tabs::-webkit-scrollbar { display: none; }
+.tab { font: 600 15px/1 var(--body); padding: 14px 20px; border-radius: 999px; border: 1.5px solid var(--line); background: transparent; color: var(--ink); cursor: pointer; white-space: nowrap; flex: none; }
+.tab[aria-selected="true"] { background: var(--ink); border-color: var(--ink); color: #fff; }
+.panel { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 clamp(24px, 5vw, 72px); }
+.svc { display: grid; grid-template-columns: 1fr auto; gap: 4px 20px; padding: 22px 0; border-top: 1px solid var(--line); }
+.svc h3 { font-size: 26px; }
+.svc .price { font-weight: 600; white-space: nowrap; font-variant-numeric: tabular-nums; align-self: center; }
+.svc p { grid-column: 1 / -1; color: var(--muted); font-size: 15.5px; }
+@media (max-width: 820px) { .panel { grid-template-columns: 1fr; } }
+
+/* Résultats : mosaïque */
+.mosaic { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+.shot { position: relative; border-radius: var(--r); overflow: hidden; background: var(--blush); aspect-ratio: 4/5; }
+.shot img { width: 100%; height: 100%; object-fit: cover; transition: transform .6s; }
+.shot:hover img { transform: scale(1.04); }
+.shot .tag { position: absolute; left: 14px; top: 14px; z-index: 1; background: rgba(255,255,255,.92); font-size: 11.5px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; padding: 7px 12px; border-radius: 999px; }
+.shot:nth-child(3n+2) { margin-top: clamp(0px, 4vw, 56px); }
+@media (max-width: 820px) { .mosaic { grid-template-columns: 1fr 1fr; gap: 10px; } .shot:nth-child(3n+2) { margin-top: 0; } .shot:nth-child(even) { margin-top: 28px; } }
+
+/* Mariée */
+.bride { background: var(--plum); color: #f6e7ea; border-radius: clamp(28px, 4vw, 56px); margin-inline: clamp(8px, 1.5vw, 20px); }
+.bride .label, .bride .lead { color: #d9b9c4; }
+.bride .head .num { color: #5a2540; }
+.bride h2 em { color: #e39ab7; }
+.timeline { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(5, 1fr); gap: 0; }
+.timeline li { position: relative; padding: 34px 20px 0 0; display: grid; gap: 8px; align-content: start; border-top: 1px solid #6a3250; }
+.timeline li::before { content: ""; position: absolute; left: 0; top: -7px; width: 13px; height: 13px; border-radius: 50%; background: #e39ab7; }
+.timeline .when { font-family: var(--display); font-size: 40px; line-height: 1; color: #fff; }
+.timeline p { color: #d9b9c4; font-size: 15.5px; }
+.packs { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: clamp(44px, 6vw, 80px); }
+.pack { border: 1px solid #6a3250; border-radius: var(--r); padding: clamp(26px, 3vw, 40px); display: grid; gap: 18px; align-content: start; }
+.pack.featured { background: var(--bg); color: var(--ink); border-color: var(--bg); }
+.pack .label { color: inherit; opacity: .75; }
+.pack .amount { font-family: var(--display); font-size: clamp(52px, 6vw, 76px); line-height: 1; }
+.pack ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; font-size: 15.5px; }
+.pack li { padding-left: 26px; position: relative; }
+.pack li::before { content: "✦"; position: absolute; left: 0; color: #e39ab7; font-size: 12px; top: 4px; }
+.pack.featured li::before { color: var(--rose); }
+@media (max-width: 900px) {
+  .timeline { grid-template-columns: 1fr; }
+  .timeline li { border-top: 0; border-left: 1px solid #6a3250; padding: 0 0 28px 26px; }
+  .timeline li::before { left: -7px; top: 8px; }
+  .packs { grid-template-columns: 1fr; }
+}
+
+/* Engagements */
+.promises { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.promises div { background: var(--card); border-radius: var(--r); padding: 28px; display: grid; gap: 12px; align-content: start; }
+.promises .ico { width: 52px; height: 52px; border-radius: 50%; background: var(--blush); color: var(--plum); display: grid; place-items: center; }
+.promises .ico svg { width: 24px; height: 24px; }
+.promises h3 { font-size: 26px; }
+.promises p { color: var(--muted); font-size: 15.5px; }
+@media (max-width: 980px) { .promises { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 560px) { .promises { grid-template-columns: 1fr; } }
+
+/* Wafae */
+.about .wrap { display: grid; grid-template-columns: .85fr 1.15fr; gap: clamp(28px, 6vw, 96px); align-items: center; }
+.portrait { aspect-ratio: 4/5; border-radius: 999px 999px var(--r) var(--r); background: linear-gradient(160deg, #ead0cf, #cf98ab); display: grid; place-items: center; text-align: center; padding: 24px; color: var(--plum); font-size: 14px; }
+.about-text { display: grid; gap: 22px; justify-items: start; }
+.about-text h2 { font-size: clamp(48px, 7vw, 104px); }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chips span { border: 1px solid var(--line); background: var(--card); border-radius: 999px; padding: 9px 16px; font-size: 14px; font-weight: 500; }
+@media (max-width: 900px) { .about .wrap { grid-template-columns: 1fr; } .portrait { max-width: 340px; } }
+
+/* Académie + solidaire */
+.duo { display: grid; grid-template-columns: 1.2fr .8fr; gap: 16px; }
+.duo article { border-radius: var(--r); padding: clamp(28px, 4vw, 52px); display: grid; gap: 18px; align-content: start; justify-items: start; background: var(--card); }
+.duo article.warm { background: var(--blush); }
+.duo h2 { font-size: clamp(36px, 4.4vw, 60px); }
+.duo p { color: var(--muted); }
+@media (max-width: 900px) { .duo { grid-template-columns: 1fr; } }
+
+/* Avis */
+.reviews { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.review { background: var(--card); border-radius: var(--r); padding: 30px; display: grid; gap: 14px; align-content: start; justify-items: start; }
+.stars { color: var(--gold); letter-spacing: 3px; }
+.review p { font-family: var(--display); font-size: 24px; line-height: 1.25; }
+@media (max-width: 900px) { .reviews { grid-template-columns: 1fr; } }
+
+/* FAQ */
+.faq-grid { display: grid; grid-template-columns: .8fr 1.2fr; gap: clamp(28px, 6vw, 96px); align-items: start; }
+.faq { display: grid; }
+.faq details { border-top: 1px solid var(--line); padding: 22px 0; }
+.faq details:last-child { border-bottom: 1px solid var(--line); }
+.faq summary { font-family: var(--display); font-size: clamp(22px, 2.4vw, 30px); line-height: 1.15; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 20px; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: "+"; flex: none; width: 38px; height: 38px; border-radius: 50%; border: 1px solid var(--line); display: grid; place-items: center; font-family: var(--body); font-size: 20px; transition: transform .25s, background .25s; }
+.faq details[open] summary::after { transform: rotate(45deg); background: var(--ink); color: #fff; border-color: var(--ink); }
+.faq details p { color: var(--muted); margin-top: 12px; max-width: 62ch; }
+@media (max-width: 900px) { .faq-grid { grid-template-columns: 1fr; } }
+
+/* Contact */
+.contact { background: var(--ink); color: #f3ebe6; border-radius: clamp(28px, 4vw, 56px) clamp(28px, 4vw, 56px) 0 0; padding-bottom: 0; }
+.contact .label { color: #b9a6a6; }
+.contact h2 { font-size: clamp(52px, 9.5vw, 148px); line-height: .9; }
+.contact h2 em { color: #e39ab7; }
+.contact-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: clamp(24px, 4vw, 56px); margin-top: clamp(44px, 6vw, 80px); padding-top: 36px; border-top: 1px solid #3a2c30; }
+.contact-grid h3 { font-family: var(--body); font-size: 12px; font-weight: 600; letter-spacing: .18em; text-transform: uppercase; color: #b9a6a6; margin-bottom: 14px; }
+.hours { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+.hours td { padding: 7px 0; border-bottom: 1px solid #3a2c30; }
+.hours td:last-child { text-align: right; }
+@media (max-width: 900px) { .contact-grid { grid-template-columns: 1fr; } }
+footer { margin-top: clamp(56px, 8vw, 100px); border-top: 1px solid #3a2c30; padding-block: 28px 110px; font-size: 13.5px; color: #b9a6a6; }
+footer .wrap { display: flex; flex-wrap: wrap; gap: 16px 28px; align-items: center; justify-content: space-between; }
+footer img { height: 64px; width: auto; }
+
+/* Barre d'action sur téléphone */
+.dock { position: fixed; left: 12px; right: 12px; bottom: max(12px, env(safe-area-inset-bottom)); z-index: 40; display: none; gap: 8px; background: rgba(255,255,255,.9); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border: 1px solid var(--line); border-radius: 999px; padding: 6px; box-shadow: 0 16px 40px rgba(27,18,21,.18); }
+.dock .btn { flex: 1; padding: 15px 12px; }
+@media (max-width: 760px) { .dock { display: flex; } }
+
+/* Apparition au défilement (seulement si JavaScript est actif) */
+.js .reveal { opacity: 0; transform: translateY(26px); transition: opacity .7s ease, transform .7s ease; }
+.js .reveal.in { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { transition: none !important; animation: none !important; }
+  .js .reveal { opacity: 1; transform: none; }
+}
+</style>
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.3 14.2c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-3.9-4.7-4.1-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .5l-.4.6-.4.4c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.6-.1l2 1c.3.1.5.2.5.3.1.2.1.7-.1 1.3Z"/></symbol></svg>
+
+<div class="draft">Version de travail · les éléments <span class="todo">surlignés en jaune</span> sont à compléter par Wafae</div>
+
+<header class="site-header">
+  <div class="wrap" style="position:relative">
+    <div class="bar">
+      <a class="logo" href="#top"><img src="images/logo-rs-prune.png" alt="" width="360" height="310"><span>Regard <i>Sublime</i></span></a>
+      <nav class="nav" id="nav" aria-label="Navigation principale">
+        <a href="#prestations">Prestations</a>
+        <a href="#resultats">Résultats</a>
+        <a href="#mariee">Mariée</a>
+        <a href="#wafae">Wafae</a>
+        <a href="#academie">Académie</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div style="display:flex; gap:8px; align-items:center">
+        <a class="btn btn-dark" href="https://wa.me/212611563582?text=Bonjour%20Regard%20Sublime%2C%20je%20souhaite%20prendre%20rendez-vous." target="_blank" rel="noopener" aria-label="Réserver sur WhatsApp"><svg><use href="#wa"/></svg><span>Réserver</span></a>
+        <button class="menu-btn" id="menu-btn" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 8h16M4 16h16"/></svg></button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="label">Maquillage permanent · Casablanca</span>
+        <h1 id="hero-title">Le regard, <em>sublimé.</em></h1>
+        <p class="lead">Microblading, glaçage des lèvres, eye-liner permanent, maquillage de mariée, détatouage laser et soins de beauté, par Wafae El Idrissi, à Mers Sultan.</p>
+        <div class="cta-row">
+          <a class="btn btn-wa" href="https://wa.me/212611563582?text=Bonjour%20Regard%20Sublime%2C%20je%20souhaite%20prendre%20rendez-vous." target="_blank" rel="noopener"><svg><use href="#wa"/></svg>Réserver sur WhatsApp</a>
+          <a class="btn btn-line" href="#prestations">Voir les prestations</a>
+        </div>
+      </div>
+      <div class="hero-media">
+        <img class="main" src="images/hero-sourcils.jpg" alt="Sourcils dessinés poil à poil par Wafae El Idrissi" width="800" height="1000">
+        <img class="mini" src="images/levres-avant-apres-2.jpg" alt="Lèvres avant et après glaçage" width="800" height="800">
+        <div class="float"><b>100 %</b> de clientes qui recommandent l'institut sur Facebook (24 avis)</div>
+      </div>
+    </div>
+    <div class="wrap">
+      <div class="stats">
+        <div><b>+ de 15 ans</b><span>d'expérience</span></div>
+        <div><b>Des centaines</b><span>de clientes accompagnées</span></div>
+        <div><b>Chada FM</b><span>invitée à la radio</span></div>
+        <div><b>Formatrice</b><span>en maquillage permanent</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BANDEAU -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Microblading</span><span>Microshading</span><span>Eye-liner permanent</span><span>Glaçage des lèvres</span><span>Maquillage de mariée</span><span>Soins Guinot</span><span>Hydrafacial</span><span>Détatouage laser</span><span>Esthétique médicale</span><span>Formations</span>
+      <span>Microblading</span><span>Microshading</span><span>Eye-liner permanent</span><span>Glaçage des lèvres</span><span>Maquillage de mariée</span><span>Soins Guinot</span><span>Hydrafacial</span><span>Détatouage laser</span><span>Esthétique médicale</span><span>Formations</span>
+    </div>
+  </div>
+
+  <!-- 01 SIGNATURE -->
+  <section aria-labelledby="trio-title">
+    <div class="wrap">
+      <div class="head reveal">
+        <span class="num" aria-hidden="true">01</span>
+        <span class="label">La signature de l'institut</span>
+        <h2 id="trio-title">Le Trio <em>Regard Sublime</em></h2>
+        <p class="lead">Sourcils, regard et lèvres : trois gestes qui vous font gagner du temps chaque matin, pour un visage naturellement parfait, jour après jour.</p>
+      </div>
+      <div class="trio reveal">
+        <article class="pic">
+          <img src="images/sourcils-detail.jpg" alt="" loading="lazy" width="800" height="1000">
+          <div><span class="n">01</span><h3>Des sourcils dessinés</h3><p>Microblading poil à poil ou microshading effet poudré, selon votre peau et la forme de votre visage.</p></div>
+        </article>
+        <article class="plain">
+          <span class="n">02</span>
+          <h3>Un regard intense</h3>
+          <p>L'eye-liner permanent, fin ou plus marqué, pour un regard défini dès le réveil.</p>
+        </article>
+        <article class="pic">
+          <img src="images/levres-avant-apres-1.jpg" alt="" loading="lazy" width="800" height="1000">
+          <div><span class="n">03</span><h3>Des lèvres éclatantes</h3><p>Le glaçage des lèvres redonne une couleur naturelle et rosée, qui tient jusqu'à 2 ans.</p></div>
+        </article>
+      </div>
+      <div class="band reveal">
+        <strong>Le Trio complet : <span class="todo">[prix] DH</span></strong>
+        <a class="btn btn-dark" href="https://wa.me/212611563582?text=Bonjour%2C%20je%20souhaite%20des%20informations%20sur%20le%20Trio%20Regard%20Sublime." target="_blank" rel="noopener"><svg><use href="#wa"/></svg>Je veux le Trio</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 PRESTATIONS -->
+  <section id="prestations" class="services" aria-labelledby="svc-title">
+    <div class="wrap">
+      <div class="head reveal">
+        <span class="num" aria-hidden="true">02</span>
+        <span class="label">Prestations et tarifs</span>
+        <h2 id="svc-title">Tout pour votre beauté, <em>au même endroit</em></h2>
+        <p class="lead">Chaque prestation commence par un diagnostic. Les prix indiqués sont des prix de départ : le tarif exact vous est donné pendant la consultation.</p>
+      </div>
+
+      <div class="tabs" role="tablist" aria-label="Familles de prestations">
+        <button class="tab" role="tab" id="tab-regard" aria-controls="p-regard" aria-selected="true">Regard et lèvres</button>
+        <button class="tab" role="tab" id="tab-mariee" aria-controls="p-mariee" aria-selected="false" tabindex="-1">Maquillage</button>
+        <button class="tab" role="tab" id="tab-visage" aria-controls="p-visage" aria-selected="false" tabindex="-1">Soins du visage</button>
+        <button class="tab" role="tab" id="tab-laser" aria-controls="p-laser" aria-selected="false" tabindex="-1">Détatouage et laser</button>
+        <button class="tab" role="tab" id="tab-tech" aria-controls="p-tech" aria-selected="false" tabindex="-1">Esthétique médicale</button>
+        <button class="tab" role="tab" id="tab-cheveux" aria-controls="p-cheveux" aria-selected="false" tabindex="-1">Cheveux, ongles et bien-être</button>
+      </div>
+
+      <div class="panel" role="tabpanel" id="p-regard" aria-labelledby="tab-regard">
+        <div class="svc"><h3>Microblading</h3><span class="price">dès <span class="todo">[…]</span> DH</span><p>Pigmentation poil à poil, dessinée à la main, pour un effet naturel.</p></div>
+        <div class="svc"><h3>Microshading</h3><span class="price">dès <span class="todo">[…]</span> DH</span><p>Effet poudré, idéal pour les peaux grasses ou un rendu plus maquillé.</p></div>
+        <div class="svc"><h3>Combo sourcils</h3><span class="price">dès <span class="todo">[…]</span> DH</span><p>Microblading et microshading combinés, pour plus de densité.</p></div>
+        <div class="svc"><h3>Eye-liner permanent</h3><span class="price">dès <span class="todo">[…]</span> DH</span><p>Un trait précis qui intensifie le regard sans maquillage.</p></div>
+        <div class="svc"><h3>Glaçage des lèvres, effet naturel</h3><span class="price">dès <span class="todo">[…]</span> DH</span><p>Une couleur douce qui s'estompe d'environ 40 % à la cicatrisation, pour un rendu naturel.</p></div>
+        <div class="svc"><h3>Soft Shading Lips</h3><span class="price">dès <span class="todo">[…]</span> DH</span><p>Une couleur subtile, posée tout en douceur.</p></div>
+        <div class="svc"><h3>Full Candy Lips</h3><span class="price">dès <span class="todo">[…]</span> DH</span><p>Pigment sur toute la lèvre, en nude, bois de rose, beige, rouge ou rosé.</p></div>
+      </div>
+
+      <div class="panel" role="tabpanel" id="p-mariee" aria-labelledby="tab-mariee" hidden>
+        <div class="svc"><h3>Pack mariée Perle</h3><span class="price">3 500 DH</span><p>Maquillage et coiffure, soin visage, épilation, manucure et pédicure, massage et soin du corps, maquillage d'une invitée offert.</p></div>
+        <div class="svc"><h3>Pack mariée Diamond</h3><span class="price">5 000 DH</span><p>Le pack Perle, plus coloration, mèches ou balayage, soin lissant à la protéine et extensions de cils en soie.</p></div>
+        <div class="svc"><h3>Maquillage soirée et invitée</h3><span class="price">dès <span class="todo">[…]</span> DH</span><p>Pour les fiançailles, les fêtes et les soirées.</p></div>
+        <div class="svc"><h3>Relooking</h3><span class="price">sur devis</span><p>Un conseil complet pour révéler votre style.</p></div>
+        <div class="svc"><h3>Déplacement</h3><span class="price">sur devis</span><p>Wafae se déplace partout au Maroc pour le jour J.</p></div>
+      </div>
+
+      <div class="panel" role="tabpanel" id="p-visage" aria-labelledby="tab-visage" hidden>
+        <div class="svc"><h3>Soin visage spécifique</h3><span class="price">dès <span class="todo">[…]</span> DH</span><p>Diagnostic, peeling doux aux algues, extraction, modelage, masque et crème adaptés.</p></div>
+        <div class="svc"><h3>Guinot Hydradermie Lift</h3><span class="price">dès <span class="todo">[…]</span> DH</span><p>Stimulation musculaire pour des traits remontés et une peau tonifiée.</p></div>
+        <div class="svc"><h3>Guinot Beauté Neuve</h3><span class="price">dès <span class="todo">[…]</span> DH</span><p>Soin rénovateur pour l'éclat et la jeunesse de la peau.</p></div>
+        <div class="svc"><h3>Guinot Liftosome et Aromatic</h3><span class="price">dès <span class="todo">[…]</span> DH</span><p>Raffermir, régénérer, ou se détendre aux huiles essentielles.</p></div>
+        <div class="svc"><h3>Hydrafacial</h3><span class="price">dès <span class="todo">[…]</span> DH</span><p>Nettoyage en profondeur et hydratation intense.</p></div>
+        <div class="svc"><h3>BB Glow</h3><span class="price">dès <span class="todo">[…]</span> DH</span><p>Un teint unifié et lumineux, sans fond de teint.</p></div>
+      </div>
+
+      <div class="panel" role="tabpanel" id="p-laser" aria-labelledby="tab-laser" hidden>
+        <div class="svc"><h3>Détatouage laser</h3><span class="price">sur devis</span><p>Tatouages du corps et wcham. Le nombre de séances dépend de l'encre, de la couleur et de la taille du tatouage.</p></div>
+        <div class="svc"><h3>Détatouage des sourcils</h3><span class="price">sur devis</span><p>Pour effacer ou éclaircir un ancien tatouage des sourcils avant de les redessiner.</p></div>
+        <div class="svc"><h3>Dépigmentation</h3><span class="price">sur devis</span><p>Correction d'un ancien maquillage permanent : couleur virée, forme à reprendre.</p></div>
+        <div class="svc"><h3>Épilation définitive au laser</h3><span class="price">dès <span class="todo">[…]</span> DH</span><p>Visage, zones ciblées ou corps complet.</p></div>
+        <div class="svc"><h3>Photo-rajeunissement</h3><span class="price">dès <span class="todo">[…]</span> DH</span><p>Taches, pores dilatés, cicatrices : sur le visage, les mains et le décolleté.</p></div>
+        <div class="svc"><h3>Carbon laser peel</h3><span class="price">dès <span class="todo">[…]</span> DH</span><p>Un peeling au laser pour resserrer les pores et raviver l'éclat du teint.</p></div>
+      </div>
+
+      <div class="panel" role="tabpanel" id="p-tech" aria-labelledby="tab-tech" hidden>
+        <div class="svc"><h3>Radiofréquence visage</h3><span class="price">dès <span class="todo">[…]</span> DH</span><p>Pour raffermir la peau et redessiner l'ovale du visage.</p></div>
+        <div class="svc"><h3>Radiofréquence minceur corps</h3><span class="price">dès <span class="todo">[…]</span> DH</span><p>Pour raffermir et lisser les zones ciblées.</p></div>
+        <div class="svc"><h3>Cavitation et lipocavitation</h3><span class="price">dès <span class="todo">[…]</span> DH</span><p>Les ultrasons au service de la silhouette, zone par zone.</p></div>
+        <div class="svc"><h3>Lipolaser</h3><span class="price">dès <span class="todo">[…]</span> DH</span><p>Un soin minceur localisé, sans douleur.</p></div>
+        <div class="svc"><h3>Cryolipolyse</h3><span class="price">dès <span class="todo">[…]</span> DH</span><p>Le froid pour cibler les rondeurs localisées.</p></div>
+        <div class="svc"><h3>Microneedling</h3><span class="price">dès <span class="todo">[…]</span> DH</span><p>Stimule la peau pour atténuer cicatrices, pores et ridules.</p></div>
+        <div class="svc"><h3>Photothérapie LED</h3><span class="price">dès <span class="todo">[…]</span> DH</span><p>La lumière pour apaiser la peau et lui redonner de l'éclat.</p></div>
+        <div class="svc"><h3>Jet plasma</h3><span class="price">dès <span class="todo">[…]</span> DH</span><p>Un soin ciblé pour retendre la peau du visage.</p></div>
+        <div class="svc"><h3>Vacuum thérapie et électrothérapie</h3><span class="price">dès <span class="todo">[…]</span> DH</span><p>Pour drainer, tonifier et lisser la peau.</p></div>
+        <p class="todo" style="grid-column:1/-1; margin-top:18px; justify-self:start">[Liste relevée dans une story de 2023 : à confirmer avec Wafae, soin par soin]</p>
+      </div>
+
+      <div class="panel" role="tabpanel" id="p-cheveux" aria-labelledby="tab-cheveux" hidden>
+        <div class="svc"><h3>Soin lissant sans formol</h3><span class="price">600 DH</span><p>Protéine, collagène, huile de coco ou caviar, selon vos cheveux.</p></div>
+        <div class="svc"><h3>Coloration, ombré, mèches</h3><span class="price">dès <span class="todo">[…]</span> DH</span><p>Toutes les nuances, avec les produits Schwarzkopf Professional.</p></div>
+        <div class="svc"><h3>Onglerie, manucure, pédicure</h3><span class="price">dès <span class="todo">[…]</span> DH</span><p>Pour des mains et des pieds soignés.</p></div>
+        <div class="svc"><h3>Massage et épilation</h3><span class="price">dès <span class="todo">[…]</span> DH</span><p>Un moment de détente à l'institut.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 03 RÉSULTATS -->
+  <section id="resultats" aria-labelledby="gal-title">
+    <div class="wrap">
+      <div class="head reveal">
+        <span class="num" aria-hidden="true">03</span>
+        <span class="label">Résultats</span>
+        <h2 id="gal-title">Avant, <em>après</em></h2>
+        <p class="lead">De vraies clientes de l'institut, photographiées juste après leur séance.</p>
+      </div>
+      <div class="mosaic reveal">
+        <div class="shot"><span class="tag">Sourcils</span><img src="images/sourcils-avant-apres-1.jpg" alt="Sourcils avant et après microblading" loading="lazy" width="800" height="1000"></div>
+        <div class="shot"><span class="tag">Lèvres</span><img src="images/levres-avant-apres-1.jpg" alt="Lèvres avant et après glaçage" loading="lazy" width="800" height="1000"></div>
+        <div class="shot"><span class="tag">Sourcils</span><img src="images/sourcils-avant-apres-2.jpg" alt="Sourcils avant et après maquillage permanent" loading="lazy" width="800" height="1000"></div>
+        <div class="shot"><span class="tag">Sourcils</span><img src="images/sourcils-detail.jpg" alt="Détail de sourcils dessinés poil à poil" loading="lazy" width="800" height="1000"></div>
+        <div class="shot" style="aspect-ratio:1/1"><span class="tag">Lèvres</span><img src="images/levres-avant-apres-2.jpg" alt="Lèvres avant et après glaçage" loading="lazy" width="800" height="800"></div>
+        <div class="shot"><span class="tag">Sourcils</span><img src="images/sourcils-avant-apres-3.jpg" alt="Sourcils avant et après maquillage permanent" loading="lazy" width="800" height="1000"></div>
+      </div>
+      <p class="todo" style="margin-top:24px; display:inline-block">[À ajouter avec Wafae : résultats cicatrisés à 1 mois, eye-liner, mariée]</p>
+    </div>
+  </section>
+
+  <!-- 04 MARIÉE -->
+  <section id="mariee" class="bride on-dark" aria-labelledby="bride-title">
+    <div class="wrap">
+      <div class="head reveal">
+        <span class="num" aria-hidden="true">04</span>
+        <span class="label">Programme mariée</span>
+        <h2 id="bride-title">90 jours pour être <em>sublime</em> le jour J</h2>
+        <p class="lead">Un seul institut pour tout préparer : la peau, le regard, les lèvres, les cheveux et le maquillage. Chaque étape au bon moment, sans stress.</p>
+      </div>
+      <ol class="timeline reveal">
+        <li><span class="when">J-90</span><p>Rendez-vous de conseil, et début des soins du visage.</p></li>
+        <li><span class="when">J-60</span><p>Microblading et glaçage des lèvres, pour avoir le temps de cicatriser et de faire la retouche.</p></li>
+        <li><span class="when">J-30</span><p>Essai maquillage et coiffure, et retouche des sourcils.</p></li>
+        <li><span class="when">J-7</span><p>Soin lissant et soin visage éclat.</p></li>
+        <li><span class="when">Jour J</span><p>Maquillage et coiffure. Vous n'avez plus qu'à profiter.</p></li>
+      </ol>
+      <div class="packs reveal">
+        <div class="pack featured">
+          <span class="label">Pack Perle</span>
+          <span class="amount">3 500 DH</span>
+          <ul>
+            <li>Maquillage et coiffure de la mariée</li>
+            <li>Soin visage spécifique et éclat</li>
+            <li>Épilation complète</li>
+            <li>Manucure et pédicure</li>
+            <li>Massage et soin du corps</li>
+            <li>Maquillage d'une invitée offert</li>
+          </ul>
+        </div>
+        <div class="pack">
+          <span class="label">Pack Diamond</span>
+          <span class="amount">5 000 DH</span>
+          <ul>
+            <li>Tout le pack Perle</li>
+            <li>Coloration, mèches ou balayage</li>
+            <li>Soin lissant à la protéine</li>
+            <li>Extensions de cils en soie</li>
+          </ul>
+          <p><span class="todo">[Prix des deux packs publiés en 2021 : à confirmer]</span></p>
+          <a class="btn btn-line" style="justify-self:start" href="https://wa.me/212611563582?text=Bonjour%2C%20je%20me%20marie%20et%20je%20souhaite%20des%20informations%20sur%20vos%20packs%20mari%C3%A9e." target="_blank" rel="noopener"><svg><use href="#wa"/></svg>Parler de mon mariage</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 05 ENGAGEMENTS -->
+  <section aria-labelledby="promise-title">
+    <div class="wrap">
+      <div class="head reveal">
+        <span class="num" aria-hidden="true">05</span>
+        <span class="label">Nos engagements</span>
+        <h2 id="promise-title">Votre visage entre de <em>bonnes mains</em></h2>
+      </div>
+      <div class="promises reveal">
+        <div>
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg></span>
+          <h3>Hygiène stricte</h3>
+          <p>Matériel stérile à usage unique et pigments PhiBrows, 100 % vegans <span class="todo">[toujours PhiBrows ? à confirmer]</span>.</p>
+        </div>
+        <div>
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg></span>
+          <h3>Un diagnostic avant tout</h3>
+          <p>La forme, la couleur et la technique sont choisies avec vous, selon votre visage et votre peau.</p>
+        </div>
+        <div>
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 12a9 9 0 1 1-3-6.7"/><path d="M21 4v5h-5"/></svg></span>
+          <h3>La retouche prévue</h3>
+          <p>Une séance de retouche environ un mois après, une fois la peau cicatrisée, pour un résultat parfait <span class="todo">[incluse dans le prix ?]</span>.</p>
+        </div>
+        <div>
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span>
+          <h3>Un suivi sur WhatsApp</h3>
+          <p>Nous prenons de vos nouvelles le lendemain, à une semaine et à un mois.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WAFAE -->
+  <section id="wafae" class="about" style="padding-top:0" aria-labelledby="about-title">
+    <div class="wrap">
+      <div class="portrait reveal" role="img" aria-label="Emplacement portrait de Wafae">Portrait de Wafae à ajouter</div>
+      <div class="about-text reveal">
+        <span class="label">Qui suis-je</span>
+        <h2 id="about-title">Wafae <em>El Idrissi</em></h2>
+        <p class="lead">Maquilleuse professionnelle et spécialiste du maquillage permanent, Wafae a fondé Regard Sublime pour offrir aux femmes de Casablanca une beauté naturelle et durable. Chaque prestation est réalisée à la main, avec précision.</p>
+        <p class="todo">[2 ou 3 phrases de Wafae : son parcours, ses formations, ce qui la passionne.]</p>
+        <div class="chips">
+          <span>Maquillage permanent</span>
+          <span>Maquilleuse de mariées</span>
+          <span>Formatrice</span>
+          <span>Vue sur Chada FM</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACADÉMIE + SOLIDAIRE -->
+  <section id="academie" style="padding-top:0" aria-labelledby="academy-title">
+    <div class="wrap duo">
+      <article class="reveal">
+        <span class="label">Regard Sublime Académie</span>
+        <h2 id="academy-title">Apprenez le métier <em>avec Wafae</em></h2>
+        <p>Devenez experte en maquillage permanent : microblading, microshading, eye-liner, glaçage des lèvres et BB Glow. Formations aussi en maquillage et en esthétique.</p>
+        <p class="todo">[Prochaine session : dates, durée, prix, nombre de places]</p>
+        <a class="btn btn-dark" href="https://wa.me/212611563582?text=Bonjour%2C%20je%20souhaite%20des%20informations%20sur%20les%20formations." target="_blank" rel="noopener"><svg><use href="#wa"/></svg>Demander le programme</a>
+      </article>
+      <article class="warm reveal">
+        <span class="label">Notre engagement solidaire</span>
+        <h2>La campagne <em>« wcham »</em></h2>
+        <p>Pendant le Ramadan, Regard Sublime offre le détatouage laser aux femmes de plus de 60 ans qui souhaitent effacer leur wcham. Une tradition que nous respectons, et un choix que nous accompagnons.</p>
+        <p class="todo">[Prochaine campagne : Ramadan 2027, à confirmer]</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- 06 AVIS -->
+  <section style="padding-top:0" aria-labelledby="reviews-title">
+    <div class="wrap">
+      <div class="head reveal">
+        <span class="num" aria-hidden="true">06</span>
+        <span class="label">Avis clientes</span>
+        <h2 id="reviews-title">Recommandée à <em>100 %</em></h2>
+        <p class="lead">Sur 24 avis laissés sur la page Facebook de l'institut.</p>
+      </div>
+      <div class="reviews reveal">
+        <div class="review"><span class="stars" aria-label="5 étoiles sur 5">★★★★★</span><p class="todo">[Copier ici un vrai avis Facebook ou Google, avec l'accord de la cliente]</p><strong class="todo">[Prénom]</strong></div>
+        <div class="review"><span class="stars" aria-label="5 étoiles sur 5">★★★★★</span><p class="todo">[Copier ici un vrai avis Facebook ou Google, avec l'accord de la cliente]</p><strong class="todo">[Prénom]</strong></div>
+        <div class="review"><span class="stars" aria-label="5 étoiles sur 5">★★★★★</span><p class="todo">[Copier ici un vrai avis Facebook ou Google, avec l'accord de la cliente]</p><strong class="todo">[Prénom]</strong></div>
+      </div>
+      <p style="margin-top:28px"><a class="btn btn-line" href="https://www.google.com/maps/search/?api=1&query=Regard+Sublime+Plateaux+Taoufiq+Casablanca" target="_blank" rel="noopener">Laisser un avis sur Google</a></p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section style="padding-top:0" aria-labelledby="faq-title">
+    <div class="wrap faq-grid">
+      <div class="reveal" style="display:grid; gap:16px">
+        <span class="label">Questions fréquentes</span>
+        <h2 id="faq-title">Vos questions, <em>nos réponses</em></h2>
+      </div>
+      <div class="faq reveal">
+        <details><summary>Est-ce que le microblading fait mal ?</summary><p>La plupart des clientes ressentent une gêne légère. Wafae vous explique tout pendant le rendez-vous de conseil, et adapte la séance à votre confort.</p></details>
+        <details><summary>Combien de temps dure le résultat ?</summary><p>Le maquillage permanent s'estompe progressivement. Le glaçage des lèvres peut tenir jusqu'à 2 ans. Pour les lèvres, une retouche d'entretien est généralement à prévoir tous les 2 ans. <span class="todo">[Durées à confirmer par Wafae pour les sourcils et l'eye-liner]</span></p></details>
+        <details><summary>Que faire après la séance ?</summary><p>Pendant les premiers jours, on évite l'eau, le hammam, le soleil et le maquillage sur la zone, et on ne gratte pas. Vous recevez toutes les consignes par écrit et sur WhatsApp.</p></details>
+        <details><summary>Puis-je le faire pendant la grossesse ou l'allaitement ?</summary><p>Non. Le maquillage permanent est déconseillé pendant la grossesse et l'allaitement. Nous vous attendons avec plaisir après.</p></details>
+        <details><summary>Faut-il prendre rendez-vous ?</summary><p>Oui, de préférence. Écrivez-nous sur WhatsApp : nous vous répondons rapidement avec les disponibilités.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact on-dark" aria-labelledby="contact-title">
+    <div class="wrap">
+      <span class="label">Nous trouver</span>
+      <h2 id="contact-title" style="margin-top:18px">Prête à <em>sublimer</em> votre regard ?</h2>
+      <div class="cta-row">
+        <a class="btn btn-wa" href="https://wa.me/212611563582?text=Bonjour%20Regard%20Sublime%2C%20je%20souhaite%20prendre%20rendez-vous." target="_blank" rel="noopener"><svg><use href="#wa"/></svg>Réserver sur WhatsApp</a>
+        <a class="btn btn-line" href="https://www.google.com/maps/search/?api=1&query=Regard+Sublime+Plateaux+Taoufiq+Casablanca" target="_blank" rel="noopener">Itinéraire</a>
+      </div>
+      <div class="contact-grid">
+        <div>
+          <h3>Adresse</h3>
+          <p>39 rue Omar Slaoui, Plateaux Taoufiq, 2e étage à droite<br>En face de la Clinique des Princes, à côté de la banque SGMB<br>Mers Sultan, Casablanca</p>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <p><a href="tel:+212611563582">06 11 56 35 82</a> (mobile et WhatsApp)<br><a href="tel:+212522274942">05 22 27 49 42</a><br><a href="https://www.instagram.com/regard.sublime/" target="_blank" rel="noopener">Instagram @regard.sublime</a><br><a href="https://www.facebook.com/regardsublime.ma" target="_blank" rel="noopener">Facebook</a></p>
+        </div>
+        <div>
+          <h3>Horaires</h3>
+          <table class="hours">
+            <tbody>
+              <tr><td>Lundi au samedi</td><td>10 h – 20 h</td></tr>
+              <tr><td>Dimanche</td><td>Fermé</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="wrap">
+        <img src="images/logo-rs-blanc.png" alt="Logo Regard Sublime" width="360" height="310" loading="lazy">
+        <span>© 2026 Regard Sublime · Centre de beauté et maquillage permanent à Casablanca</span>
+      </div>
+    </footer>
+  </section>
+</main>
+
+<div class="dock">
+  <a class="btn btn-line" href="tel:+212611563582">Appeler</a>
+  <a class="btn btn-wa" href="https://wa.me/212611563582?text=Bonjour%20Regard%20Sublime%2C%20je%20souhaite%20prendre%20rendez-vous." target="_blank" rel="noopener"><svg><use href="#wa"/></svg>Réserver</a>
+</div>
+
+<script>
+// Onglets des prestations (clic et flèches du clavier)
+(function () {
+  const tabs = Array.from(document.querySelectorAll('[role="tab"]'));
+  function select(tab) {
+    tabs.forEach(t => {
+      const on = t === tab;
+      t.setAttribute('aria-selected', on ? 'true' : 'false');
+      t.tabIndex = on ? 0 : -1;
+      document.getElementById(t.getAttribute('aria-controls')).hidden = !on;
+    });
+  }
+  tabs.forEach((tab, i) => {
+    tab.addEventListener('click', () => select(tab));
+    tab.addEventListener('keydown', e => {
+      if (e.key !== 'ArrowRight' && e.key !== 'ArrowLeft') return;
+      const next = tabs[(i + (e.key === 'ArrowRight' ? 1 : tabs.length - 1)) % tabs.length];
+      select(next); next.focus();
+    });
+  });
+})();
+
+// Menu sur téléphone
+(function () {
+  const btn = document.getElementById('menu-btn'), nav = document.getElementById('nav');
+  function set(open) { nav.classList.toggle('open', open); btn.setAttribute('aria-expanded', open ? 'true' : 'false'); }
+  btn.addEventListener('click', () => set(!nav.classList.contains('open')));
+  nav.addEventListener('click', e => { if (e.target.tagName === 'A') set(false); });
+})();
+
+// Apparition douce des blocs au défilement
+(function () {
+  const els = document.querySelectorAll('.reveal');
+  if (!('IntersectionObserver' in window)) { els.forEach(e => e.classList.add('in')); return; }
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(en => { if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); } });
+  }, { rootMargin: '0px 0px -8% 0px' });
+  els.forEach(e => io.observe(e));
+})();
+</script>
+</body>
+</html>
