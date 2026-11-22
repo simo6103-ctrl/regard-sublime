@@ -234,7 +234,7 @@ section { padding-block: clamp(72px, 10vw, 140px); }
 
 /* Wafae */
 .about .wrap { display: grid; grid-template-columns: .85fr 1.15fr; gap: clamp(28px, 6vw, 96px); align-items: center; }
-.portrait { aspect-ratio: 4/5; border-radius: 999px 999px var(--r) var(--r); background: linear-gradient(160deg, #ead0cf, #cf98ab); display: grid; place-items: center; text-align: center; padding: 24px; color: var(--plum); font-size: 14px; }
+.portrait { width: 100%; object-fit: cover; aspect-ratio: 4/5; border-radius: 999px 999px var(--r) var(--r); background: linear-gradient(160deg, #ead0cf, #cf98ab); display: grid; place-items: center; text-align: center; padding: 24px; color: var(--plum); font-size: 14px; }
 .about-text { display: grid; gap: 22px; justify-items: start; }
 .about-text h2 { font-size: clamp(48px, 7vw, 104px); }
 .chips { display: flex; flex-wrap: wrap; gap: 8px; }
@@ -441,9 +441,9 @@ footer img { height: 64px; width: auto; }
       </div>
 
       <div class="panel" role="tabpanel" id="p-laser" aria-labelledby="tab-laser" hidden>
-        <div class="svc"><h3>Détatouage laser</h3><span class="price">sur devis</span><p>Tatouages du corps et wcham. Le nombre de séances dépend de l'encre, de la couleur et de la taille du tatouage.</p></div>
+        <div class="svc"><h3>Détatouage laser</h3><span class="price">sur devis</span><p>Laser à technologie picoseconde, sur les tatouages noirs ou en couleur : sourcils, lèvres, bras, jambes, wcham. Diagnostic offert ; le nombre de séances dépend de l'encre et de la taille.</p></div>
         <div class="svc"><h3>Détatouage des sourcils</h3><span class="price">sur devis</span><p>Pour effacer ou éclaircir un ancien tatouage des sourcils avant de les redessiner.</p></div>
-        <div class="svc"><h3>Dépigmentation</h3><span class="price">sur devis</span><p>Correction d'un ancien maquillage permanent : couleur virée, forme à reprendre.</p></div>
+        <div class="svc"><h3>Dépigmentation</h3><span class="price">sur devis</span><p>Correction d'un ancien maquillage permanent : couleur virée, forme à reprendre. Quand la correction n'est pas possible, on repart de zéro.</p></div>
         <div class="svc"><h3>Épilation définitive au laser</h3><span class="price">dès <span class="todo">[…]</span> DH</span><p>Visage, zones ciblées ou corps complet.</p></div>
         <div class="svc"><h3>Photo-rajeunissement</h3><span class="price">dès <span class="todo">[…]</span> DH</span><p>Taches, pores dilatés, cicatrices : sur le visage, les mains et le décolleté.</p></div>
         <div class="svc"><h3>Carbon laser peel</h3><span class="price">dès <span class="todo">[…]</span> DH</span><p>Un peeling au laser pour resserrer les pores et raviver l'éclat du teint.</p></div>
@@ -454,7 +454,7 @@ footer img { height: 64px; width: auto; }
         <div class="svc"><h3>Radiofréquence minceur corps</h3><span class="price">dès <span class="todo">[…]</span> DH</span><p>Pour raffermir et lisser les zones ciblées.</p></div>
         <div class="svc"><h3>Cavitation et lipocavitation</h3><span class="price">dès <span class="todo">[…]</span> DH</span><p>Les ultrasons au service de la silhouette, zone par zone.</p></div>
         <div class="svc"><h3>Lipolaser</h3><span class="price">dès <span class="todo">[…]</span> DH</span><p>Un soin minceur localisé, sans douleur.</p></div>
-        <div class="svc"><h3>Cryolipolyse</h3><span class="price">dès <span class="todo">[…]</span> DH</span><p>Le froid pour cibler les rondeurs localisées.</p></div>
+        <div class="svc"><h3>Cryolipolyse</h3><span class="price">dès <span class="todo">[…]</span> DH</span><p>Le froid pour cibler les rondeurs localisées : ventre, flancs, dos, cuisses, bras. Séance de 50 minutes environ.</p></div>
         <div class="svc"><h3>Microneedling</h3><span class="price">dès <span class="todo">[…]</span> DH</span><p>Stimule la peau pour atténuer cicatrices, pores et ridules.</p></div>
         <div class="svc"><h3>Photothérapie LED</h3><span class="price">dès <span class="todo">[…]</span> DH</span><p>La lumière pour apaiser la peau et lui redonner de l'éclat.</p></div>
         <div class="svc"><h3>Jet plasma</h3><span class="price">dès <span class="todo">[…]</span> DH</span><p>Un soin ciblé pour retendre la peau du visage.</p></div>
@@ -478,17 +478,20 @@ footer img { height: 64px; width: auto; }
         <span class="num" aria-hidden="true">03</span>
         <span class="label">Résultats</span>
         <h2 id="gal-title">Avant, <em>après</em></h2>
-        <p class="lead">De vraies clientes de l'institut, photographiées juste après leur séance.</p>
+        <p class="lead">De vraies clientes de l'institut : sourcils, lèvres, détatouage et mariée.</p>
       </div>
       <div class="mosaic reveal">
         <div class="shot"><span class="tag">Sourcils</span><img src="images/sourcils-avant-apres-1.jpg" alt="Sourcils avant et après microblading" loading="lazy" width="800" height="1000"></div>
         <div class="shot"><span class="tag">Lèvres</span><img src="images/levres-avant-apres-1.jpg" alt="Lèvres avant et après glaçage" loading="lazy" width="800" height="1000"></div>
-        <div class="shot"><span class="tag">Sourcils</span><img src="images/sourcils-avant-apres-2.jpg" alt="Sourcils avant et après maquillage permanent" loading="lazy" width="800" height="1000"></div>
+        <div class="shot"><span class="tag">Mariée</span><img src="images/mariee-1.jpg" alt="Mariée maquillée par Wafae El Idrissi" loading="lazy" width="800" height="1000"></div>
+        <div class="shot" style="aspect-ratio:1/1"><span class="tag">Sourcils</span><img src="images/sourcils-avant-apres-4.jpg" alt="Sourcils avant et après microblading et microshading" loading="lazy" width="800" height="1000"></div>
+        <div class="shot" style="aspect-ratio:1/1"><span class="tag">Détatouage des sourcils</span><img src="images/detatouage-sourcils.jpg" alt="Sourcil avant et après détatouage d'un ancien pigment" loading="lazy" width="800" height="1000"></div>
         <div class="shot"><span class="tag">Sourcils</span><img src="images/sourcils-detail.jpg" alt="Détail de sourcils dessinés poil à poil" loading="lazy" width="800" height="1000"></div>
-        <div class="shot" style="aspect-ratio:1/1"><span class="tag">Lèvres</span><img src="images/levres-avant-apres-2.jpg" alt="Lèvres avant et après glaçage" loading="lazy" width="800" height="800"></div>
-        <div class="shot"><span class="tag">Sourcils</span><img src="images/sourcils-avant-apres-3.jpg" alt="Sourcils avant et après maquillage permanent" loading="lazy" width="800" height="1000"></div>
+        <div class="shot" style="aspect-ratio:1/1"><span class="tag">Lèvres</span><img src="images/levres-avant-apres-3.jpg" alt="Lèvres avant et après glaçage" loading="lazy" width="800" height="1000"></div>
+        <div class="shot"><span class="tag">Sourcils</span><img src="images/sourcils-avant-apres-2.jpg" alt="Sourcils avant et après maquillage permanent" loading="lazy" width="800" height="1000"></div>
+        <div class="shot" style="aspect-ratio:1/1"><span class="tag">Sourcils</span><img src="images/sourcils-avant-apres-5.jpg" alt="Sourcils avant et après restructuration" loading="lazy" width="800" height="1000"></div>
       </div>
-      <p class="todo" style="margin-top:24px; display:inline-block">[À ajouter avec Wafae : résultats cicatrisés à 1 mois, eye-liner, mariée]</p>
+      <p class="todo" style="margin-top:24px; display:inline-block">[À ajouter avec Wafae : résultats cicatrisés à 1 mois et eye-liner. Photo de mariée à valider avec la cliente.]</p>
     </div>
   </section>
 
@@ -549,7 +552,7 @@ footer img { height: 64px; width: auto; }
         <div>
           <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg></span>
           <h3>Hygiène stricte</h3>
-          <p>Matériel stérile à usage unique et pigments PhiBrows, 100 % vegans <span class="todo">[toujours PhiBrows ? à confirmer]</span>.</p>
+          <p>Matériel stérile à usage unique et pigments PhiBrows, 100 % vegans et sans métaux lourds <span class="todo">[toujours PhiBrows ? à confirmer]</span>.</p>
         </div>
         <div>
           <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg></span>
@@ -573,13 +576,15 @@ footer img { height: 64px; width: auto; }
   <!-- WAFAE -->
   <section id="wafae" class="about" style="padding-top:0" aria-labelledby="about-title">
     <div class="wrap">
-      <div class="portrait reveal" role="img" aria-label="Emplacement portrait de Wafae">Portrait de Wafae à ajouter</div>
+      <img class="portrait reveal" style="padding:0" src="images/portrait-wafae.jpg" alt="Wafae El Idrissi" loading="lazy" width="880" height="1100">
       <div class="about-text reveal">
         <span class="label">Qui suis-je</span>
         <h2 id="about-title">Wafae <em>El Idrissi</em></h2>
         <p class="lead">Maquilleuse professionnelle et spécialiste du maquillage permanent, Wafae a fondé Regard Sublime pour offrir aux femmes de Casablanca une beauté naturelle et durable. Chaque prestation est réalisée à la main, avec précision.</p>
-        <p class="todo">[2 ou 3 phrases de Wafae : son parcours, ses formations, ce qui la passionne.]</p>
+        <p style="color:var(--muted)">En octobre 2019, elle a présenté les techniques de pigmentation lors de la journée du cancer du sein de l'Hôpital universitaire international Cheikh Khalifa, pour conseiller les personnes touchées par la maladie.</p>
+        <p class="todo">[2 ou 3 phrases de Wafae : son parcours, ses formations, ce qui la passionne. Portrait de 2019 repris d'Instagram : à valider ou à remplacer.]</p>
         <div class="chips">
+          <span>Styliste du regard</span>
           <span>Maquillage permanent</span>
           <span>Maquilleuse de mariées</span>
           <span>Formatrice</span>
@@ -595,7 +600,7 @@ footer img { height: 64px; width: auto; }
       <article class="reveal">
         <span class="label">Regard Sublime Académie</span>
         <h2 id="academy-title">Apprenez le métier <em>avec Wafae</em></h2>
-        <p>Devenez experte en maquillage permanent : microblading, microshading, eye-liner, glaçage des lèvres et BB Glow. Formations aussi en maquillage et en esthétique.</p>
+        <p>Devenez experte en maquillage permanent : microblading, microshading, eye-liner, glaçage des lèvres et BB Glow. En individuel ou en petit groupe, avec la théorie et la pratique : d'abord sur latex, puis sur cinq modèles, au stylo manuel et électrique.</p>
         <p class="todo">[Prochaine session : dates, durée, prix, nombre de places]</p>
         <a class="btn btn-dark" href="https://wa.me/212611563582?text=Bonjour%2C%20je%20souhaite%20des%20informations%20sur%20les%20formations." target="_blank" rel="noopener"><svg><use href="#wa"/></svg>Demander le programme</a>
       </article>
@@ -634,7 +639,9 @@ footer img { height: 64px; width: auto; }
         <h2 id="faq-title">Vos questions, <em>nos réponses</em></h2>
       </div>
       <div class="faq reveal">
-        <details><summary>Est-ce que le microblading fait mal ?</summary><p>La plupart des clientes ressentent une gêne légère. Wafae vous explique tout pendant le rendez-vous de conseil, et adapte la séance à votre confort.</p></details>
+        <details><summary>Microblading ou microshading : quelle différence ?</summary><p>Le microblading travaille la pigmentation poil par poil, pour un résultat d'une grande précision. Le microshading donne un effet ombré et poudré, avec une impression d'épaisseur. Les deux techniques peuvent se combiner : le choix se fait pendant le diagnostic, selon votre peau et votre visage.</p></details>
+        <details><summary>Comment se passe la séance ?</summary><p>En six étapes : on délimite les sourcils, on dessine la forme avec vous, on applique une crème anesthésiante, puis vient la pigmentation, un second passage pour fixer la couleur, et enfin la révélation du résultat.</p></details>
+        <details><summary>Est-ce que le microblading fait mal ?</summary><p>Une crème anesthésiante est appliquée avant la pigmentation : la plupart des clientes ne ressentent qu'une gêne légère. Wafae adapte la séance à votre confort.</p></details>
         <details><summary>Combien de temps dure le résultat ?</summary><p>Le maquillage permanent s'estompe progressivement. Le glaçage des lèvres peut tenir jusqu'à 2 ans. Pour les lèvres, une retouche d'entretien est généralement à prévoir tous les 2 ans. <span class="todo">[Durées à confirmer par Wafae pour les sourcils et l'eye-liner]</span></p></details>
         <details><summary>Que faire après la séance ?</summary><p>Pendant les premiers jours, on évite l'eau, le hammam, le soleil et le maquillage sur la zone, et on ne gratte pas. Vous recevez toutes les consignes par écrit et sur WhatsApp.</p></details>
         <details><summary>Puis-je le faire pendant la grossesse ou l'allaitement ?</summary><p>Non. Le maquillage permanent est déconseillé pendant la grossesse et l'allaitement. Nous vous attendons avec plaisir après.</p></details>
