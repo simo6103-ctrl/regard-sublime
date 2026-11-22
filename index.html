@@ -33,6 +33,8 @@
     "addressRegion": "Mers Sultan",
     "addressCountry": "MA"
   },
+  "geo": {"@type": "GeoCoordinates", "latitude": 33.5875482, "longitude": -7.6196189},
+  "hasMap": "https://www.google.com/maps?cid=7096666060193392650",
   "openingHoursSpecification": [{
     "@type": "OpeningHoursSpecification",
     "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
@@ -291,6 +293,9 @@ section { padding-block: clamp(72px, 10vw, 140px); }
 .hours td { padding: 7px 0; border-bottom: 1px solid #3a2c30; }
 .hours td:last-child { text-align: right; }
 @media (max-width: 900px) { .contact-grid { grid-template-columns: 1fr; } }
+.map { margin-top: clamp(32px, 5vw, 56px); border-radius: var(--r); overflow: hidden; height: clamp(300px, 38vw, 440px); background: #2a2023; }
+.map iframe { width: 100%; height: 100%; border: 0; display: block; }
+.map-links { display: flex; flex-wrap: wrap; gap: 8px 22px; margin-top: 14px; font-size: 15px; }
 footer { margin-top: clamp(56px, 8vw, 100px); border-top: 1px solid #3a2c30; padding-block: 28px 110px; font-size: 13.5px; color: #b9a6a6; }
 footer .wrap { display: flex; flex-wrap: wrap; gap: 16px 28px; align-items: center; justify-content: space-between; }
 footer img { height: 64px; width: auto; }
@@ -655,7 +660,7 @@ footer img { height: 64px; width: auto; }
         <figure class="review"><span class="stars" aria-hidden="true">★★★★★</span><blockquote>« J'ai adoré mes sourcils après le microshading, vous êtes top. »</blockquote><figcaption><strong>Imane G.</strong><span>Avis Facebook</span></figcaption></figure>
         <figure class="review"><span class="stars" aria-hidden="true">★★★★★</span><blockquote>« Merci infiniment Wafae, vraiment je suis trop satisfaite du résultat, même si au début j'avais un petit peu peur. Dès que j'ai vu le résultat final, j'étais hyper contente. »</blockquote><figcaption><strong>Sarah F.</strong><span>Avis Facebook</span></figcaption></figure>
       </div>
-      <p class="cta-row" style="margin-top:28px"><a class="btn btn-dark" href="https://www.facebook.com/regardsublime.ma/reviews" target="_blank" rel="noopener">Lire tous les avis sur Facebook</a><a class="btn btn-line" href="https://www.google.com/maps/search/?api=1&query=Regard+Sublime+Plateaux+Taoufiq+Casablanca" target="_blank" rel="noopener">Laisser un avis sur Google</a></p>
+      <p class="cta-row" style="margin-top:28px"><a class="btn btn-dark" href="https://www.facebook.com/regardsublime.ma/reviews" target="_blank" rel="noopener">Lire tous les avis sur Facebook</a><a class="btn btn-line" href="https://www.google.com/maps?cid=7096666060193392650" target="_blank" rel="noopener">Laisser un avis sur Google</a></p>
     </div>
   </section>
 
@@ -686,7 +691,7 @@ footer img { height: 64px; width: auto; }
       <h2 id="contact-title" style="margin-top:18px">Prête à <em>sublimer</em> votre regard ?</h2>
       <div class="cta-row">
         <a class="btn btn-wa" href="https://wa.me/212611563582?text=Bonjour%20Regard%20Sublime%2C%20je%20souhaite%20prendre%20rendez-vous." target="_blank" rel="noopener"><svg><use href="#wa"/></svg>Réserver sur WhatsApp</a>
-        <a class="btn btn-line" href="https://www.google.com/maps/search/?api=1&query=Regard+Sublime+Plateaux+Taoufiq+Casablanca" target="_blank" rel="noopener">Itinéraire</a>
+        <a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&destination=33.5875482%2C-7.6196189" target="_blank" rel="noopener">Itinéraire</a>
       </div>
       <div class="contact-grid">
         <div>
@@ -707,6 +712,10 @@ footer img { height: 64px; width: auto; }
           </table>
         </div>
       </div>
+      <div class="map">
+        <iframe title="Carte : Regard Sublime, 39 rue Omar Slaoui, Casablanca" src="https://www.google.com/maps?q=33.5875482,-7.6196189&z=17&hl=fr&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+      </div>
+      <p class="map-links"><a href="https://www.google.com/maps/dir/?api=1&destination=33.5875482%2C-7.6196189" target="_blank" rel="noopener">Lancer l'itinéraire</a><a href="https://www.google.com/maps?cid=7096666060193392650" target="_blank" rel="noopener">Ouvrir la fiche Google Maps</a></p>
     </div>
     <footer>
       <div class="wrap">
